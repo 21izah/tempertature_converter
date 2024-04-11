@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <!-- <div class="temp-container">
+        <label for="celsius">Celcius:</label>
+        <input
+          placeholder="Enter Temperature"
+          type="number"
+          class="celText"
+          id="celText"
+        />
+      </div> -->
+
+      <div class="containerColumn" id="contianerColumn">
+        <h1 class="containerHeading">Temperature Converter</h1>
+        <div class="containerRow" id="containerRow">
+          <h1 class="cel" id="cel">Celsius:</h1>
+          <input
+            name="Celsius"
+            placeholder="Enter Temperature"
+            type="number"
+            class="celText"
+            id="Celsius"
+            onchange="computeTemp(event)"
+          />
+        </div>
+        <div class="containerRow" id="containerRow">
+          <h1 class="cel" id="cel">Fahrenheit:</h1>
+          <input
+            name="Fahrenheit"
+            placeholder="Enter Temperature"
+            type="number"
+            class="fehText"
+            id="Fahrenheit"
+            onchange="computeTemp(event)"
+          />
+        </div>
+        <div class="containerRow" id="containerRow">
+          <h1 class="cel" id="cel">Kelvin:</h1>
+          <input
+            name="Kelvin"
+            placeholder="Enter Temperature"
+            type="number"
+            class="kelText"
+            id="Kelvin"
+            onchange="computeTemp(event)"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

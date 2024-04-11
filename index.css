@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background-color: aliceblue;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 20px;
+  padding: 30px 30px;
+  background-color: burlywood;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.containerColumn {
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Center items horizontally */
+}
+.containerRow {
+  display: flex;
+  flex-direction: row; /* Arrange items in a column */
+  align-items: center; /* Center items horizontally */
+  justify-content: space-between;
+  width: 300px; /* Adjust container width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.containerHeading {
+  font-size: large;
+  color: antiquewhite;
+}
+.cel {
+  font-size: small;
+  color: black;
+}
